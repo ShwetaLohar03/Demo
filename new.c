@@ -18,6 +18,8 @@ int main()
 
     printf("Size of Structure is %d\n",sizeof(struct student));
     
+    printf("Offset of name = %d", OFFSETOF(s,name));
+    
     printf("----------Student Data----------\n");
     printf("Roll no\t%d\n Name\t%s\n Marks\t%f\n Total\t%lf\n",s.rn,s.name,s.marks,s.total);
 
