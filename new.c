@@ -14,8 +14,12 @@ struct student
 
 int main()
 {
+    int struct student s = {101,"Shweta",70.00,70.00};
 
     printf("Size of Structure is %d\n",sizeof(struct student));
+    
+    printf("----------Student Data----------\n");
+    printf("Roll no\t%d\n Name\t%s\n Marks\t%f\n Total\t%lf\n",s.rn,s.name,s.marks,s.total);
 
     
     return 0;
