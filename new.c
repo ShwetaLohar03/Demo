@@ -17,7 +17,7 @@ int main()
     int struct student s = {101,"Shweta",70.00,70.00};
     int struct student s1 = {102,"Shruti",75.20,75.20};
 
-    printf("Size of Structure is %d\n",sizeof(struct student));
+    printf("Size of Structure is %ul\n",sizeof(struct student));
     
     printf("Offset of name = %d", OFFSETOF(s,name));
     
