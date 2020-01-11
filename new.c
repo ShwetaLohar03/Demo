@@ -14,10 +14,12 @@ struct student
 
 int main()
 {
+    int size;
     int struct student s = {101,"Shweta",70.00,70.00};
     int struct student s1 = {102,"Shruti",75.20,75.20};
 
-    printf("Size of Structure is %d\n",sizeof(s));
+    size = sizeof(s);
+    printf("Size of Structure is %d\n",size);
     
     printf("Offset of name = %d", OFFSETOF(s,name));
     
